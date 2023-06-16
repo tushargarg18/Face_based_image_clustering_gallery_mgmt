@@ -1,7 +1,7 @@
 # Gallery-Management
 
 ## Introducton
-Be it for share, managing or viewing photos of specific funtion it is always helpful if we can group the images that belongs to respective people. In this project I used open cv to detect faces from a set of images and save them separatly with reference to the original picture's name, them using face recognition - extracted the face features in 128D vector. Using the extracted features, grouped the similar faces together using the K Means clustring machine learning algorithm. After which i saved photos that belongs to respective person in separate directory.
+Be it for sharing, managing or viewing photos of a specific person, it is always helpful if we can group the images that belongs to respective people. In this project I used OpenCV to detect faces from a set of images and save them separatly with reference to the original picture's name, then using face recognition - extracted the face features in 128D vector. Using the extracted features, I grouped the similar faces together using the K Means clustring machine learning algorithm. After which I saved photos that belongs to respective person in separate directory.
 
 ##Please find below the complete steps performed to achive the desired result:
 1. Read the saved images for which clustring needs to be done
